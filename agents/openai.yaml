@@ -1,0 +1,13 @@
+interface:
+  display_name: 鉴策
+  short_description: 以《史记》《资治通鉴》原文案例推演人生抉择、代价与风险
+  default_prompt: 用 $jian-ce 分析我当前的人生抉择，并从《史记》《资治通鉴》中检索结构相似案例。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
